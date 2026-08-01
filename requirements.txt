@@ -1,0 +1,15 @@
+
+# Core inference dependencies (lean set -- training-only tools like mlflow,
+# dagshub, dvc, xgboost are NOT needed here since this container only serves
+# predictions, it doesn't retrain anything)
+fastapi==0.115.0
+uvicorn==0.30.6
+streamlit==1.38.0
+scikit-learn==1.5.2
+joblib==1.4.2
+pandas==2.2.3
+numpy==1.26.4
+requests==2.32.3
+# NOTE: torch is installed separately in the Dockerfile as a CPU-only build
+# (installing it normally here would pull several GB of unnecessary NVIDIA
+# CUDA/GPU libraries, since this container only does CPU inference)
