@@ -23,3 +23,5 @@ Two deployment paths are included, reflecting different real-world purposes:
    - Browse and predict on real test engines from the dataset (with ground-truth comparison)
    - Upload your own 30-cycle sensor CSV for a live prediction
 2. **Containerized production-style setup** (Docker + FastAPI) — a REST API (`src/app.py`) serving the model behind a `/predict` endpoint, packaged in a `Dockerfile`, also published to Docker Hub for portability:
+   docker pull dockerrahulma25m021/rul-prediction-app
+docker run -p 7860:7860 dockerrahulma25m021/rul-prediction-app
