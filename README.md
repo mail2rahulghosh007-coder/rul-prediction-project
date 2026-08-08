@@ -3,6 +3,11 @@
 Predicting how many operational cycles remain before a jet engine needs maintenance, using deep learning on multivariate sensor time-series data — benchmarked against classical ML, tracked with MLflow, versioned with DVC, and deployed as a live web app.
 
 **🔗 Live demo:** https://rul-prediction-project-curwtuldsgqrwxqdgapjrg.streamlit.app/
+## 🔗 Project Links & Live Demo
+
+* **GitHub Repository:** [github.com/mail2rahulghosh007-coder/rul-prediction-project](https://github.com/mail2rahulghosh007-coder/rul-prediction-project)
+* **Live App Demo:** [rul-prediction-project-curwtuldsgqrwxqdgapjrg.streamlit.app](https://rul-prediction-project-curwtuldsgqrwxqdgapjrg.streamlit.app)
+* **MLOps Tracking (DagsHub):** [dagshub.com/mail2rahulghosh007-coder/rul_prediction_project](https://dagshub.com/mail2rahulghosh007-coder/rul_prediction_project)
 
 ---
 
